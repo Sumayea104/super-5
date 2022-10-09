@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Five</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <section id="banner" class="w-full h-screen bg-no-repeat bg-cover">
+            <div class="background-image">
+                <img class="cover-image" src="img/background.jpg" alt="">
+            </div>
+            <div class="text-box">
+                <h1>The Most <span>Dependable Five</span></h1>
+                <p>Top five who leads toward goal</p>
+            </div>
+        </section>
+    </header>
+    <main class="w-9/12 mx-auto mt-5 pb-20 bg-black text-white">
+        <div class="grid grid-cols-2 gap-4 divide-x-2">
+            <div class="grid grid-cols-3 gap-4">
+                <!---All Cards--->
+                <!-- card 1 -->
+                <div>
+                    <div class="card card-compact w-full bg-base-100 shadow-xl">
+                        <figure><img src="img/Angel Di maria.jpg" alt="" class="w-full h-40"/></figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Angel Di Maria</h2>
+                            <p>
+                                35 Goals <span>08 Trophies</span>
+                            </p>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary btn-disable" onclick="addToCart(this)">Select</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div>
+                    <div class="card card-compact w-full bg-base-100 shadow-xl">
+                        <figure><img src="img/Bruno Fernandes.jpg" alt="" class="w-full h-40"/></figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Bruno Fernandes</h2>
+                            <p>
+                                35 Goals <br> <span>08 Trophies</span>
+                            </p>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary btn-disable" onclick="addToCart(this)">Select</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div>
+                    <div class="card card-compact w-full bg-base-100 shadow-xl">
+                        <figure><img src="img/Casemiro.jpg" alt="" class="w-full h-40"/></figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Carlos H. Casemiro</h2>
+                            <p>
+                                35 Goals <br> <span>08 Trophies</span>
+                            </p>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary btn-disable" onclick="addToCart(this)">Select</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div>
+                    <div class="card card-compact w-full bg-base-100 shadow-xl">
+                        <figure><img src="img/Cristiano Ronaldo.jpg" alt="" class="w-full h-40"/></figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Cristiano Ronaldo</h2>
+                            <p>
+                                35 Goals <br> <span>08 Trophies</span>
+                            </p>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary btn-disable" onclick="addToCart(this)">Select</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 5 -->
+                <div>
+                    <div class="card card-compact w-full bg-base-100 shadow-xl">
+                        <figure><img src="img/Kylian-Mbappe-4.jpeg" alt="" class="w-full h-40"/></figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Kylian Mbappe</h2>
+                            <p>
+                                35 Goals <br> <span>08 Trophies</span>
+                            </p>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary btn-disable" onclick="addToCart(this)">Select</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 6 -->
+                <div>
+                    <div class="card card-compact w-full bg-base-100 shadow-xl">
+                        <figure><img src="img/Neymar.jpg" alt="" class="w-full h-40"/></figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Neymar Jr.</h2>
+                            <p>
+                                35 Goals <br> <span>08 Trophies</span>
+                            </p>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary btn-disable" onclick="addToCart(this)">Select</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 7 -->
+                <div>
+                    <div class="card card-compact w-full bg-base-100 shadow-xl">
+                        <figure><img src="img/Pablo Gavi.jpg" alt="" class="w-full h-40"/></figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Pablo Gavi</h2>
+                            <p>
+                                35 Goals <br> <span>08 Trophies</span>
+                            </p>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary btn-disable" onclick="addToCart(this)">Select</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 8 -->
+                <div>
+                    <div class="card card-compact w-full bg-base-100 shadow-xl">
+                        <figure><img src="img/sergio ramos.jpg" alt="" class="w-full h-40"/></figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Sergio Ramos</h2>
+                            <p>
+                                35 Goals <br> <span>08 Trophies</span>
+                            </p>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary btn-disable" onclick="addToCart(this)">Select</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 9 -->
+                <div>
+                    <div class="card card-compact w-full bg-base-100 shadow-xl">
+                        <figure><img src="img/Paulo Dybala.jpg" alt="" class="w-full h-40"/></figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Paulo Dybala</h2>
+                            <p>
+                                35 Goals <br> <span>08 Trophies</span>
+                            </p>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary btn-disable" onclick="addToCart(this)">Select</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+                <!------- table ---------->
+            <div class="grid grid-rows-2 divide-y ">
+                <div >
+                    <p class="text-4xl text-center">Best Selected- <span id="total-Added" class="text-blue-500"></span>
+                    </p>
+                    <div class="overflow-x-auto">
+                        <table class="table table-zebra w-full table-fixed">
+                            <!-- head -->
+                            <thead>
+                            <tr>
+                                <th></th>
+                                <th>Player Name</th>
+                            </tr>
+                            </thead>
+                            <tbody id="players">
+                        <!-- row 1 -->
+                            <!-- <tr>
+                                <th>1</th>
+                                <td>Cy Ganderton</td>
+                                
+                            </tr> -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- -----budget----- -->
+                    <div class="">
+                        <h1 class="text-5xl text-center mt-6">
+                            Budget
+                        </h1>
+                        <div class="mt-6 p-8">
+                            <p>Per Player Budget</p>
+                            <input class="bg-info-content" type="number" name="budget" id="Per Player Budget" placeholder="Amount">
+                        </div>
+                        <button class="btn btn-primary bg-orange-600 border-solid" >Calculate</button>
+                    </div>
+                    <div>
+                        <p>
+                            Player Expenses $5000
+                        </p>
+                        <p>
+                            Manager
+                        </p>
+                        <input class="bg-info-content" type="number" name="budget" id="Per Player Budget" placeholder="Amount">
+                        <p>
+                            coach
+                        </p>
+                        <input class="bg-info-content" type="number" name="budget" id="Per Player Budget" placeholder="Amount">
+                        <div>
+                            <button class="btn btn-primary bg-orange-600 border-solid" >Calculate Total</button>
+                        <p>Total $00000</p>
+                        </div>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
