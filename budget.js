@@ -21,16 +21,34 @@ document.getElementById('btn-calculate').addEventListener('click', function(){
     const newPlayerExpenses = newInputAmount * previousInputTotal;
     // console.log(newPlayerExpenses);
     playerExpenses.innerText = newPlayerExpenses;
-    console.log(newPlayerExpenses);
+    // console.log(newPlayerExpenses);
+
 
 })
 
 
+document.getElementById("btn-calculateTotal").addEventListener('click', function(){
+    // console.log("clicked");
+    
+    const calculatedPlayerExp = document.getElementById("player-exp");
+    const calculatedPlayerExpString = calculatedPlayerExp.innerText;
+    // console.log(calculatedPlayerExpString);
+    const newCalculatedPlayerExp = parseFloat(calculatedPlayerExpString);
 
 
+    const managerExp = document.getElementById("manager-exp");
+    const managerExpString = managerExp.value;
+    // console.log(managerExpString);
+    const newManagerExp = parseFloat(managerExpString);
+    // console.log(newManagerExp);
 
-
-
-document.getElementById('btn-calculateTotal').addEventListener('click', function(){
-    // console.log("canty")
+    const coachExp = document.getElementById("coach-exp");
+    const coachExpString = coachExp.value;
+    // console.log(coachExpString);
+    const newCoachExp = parseFloat(coachExpString);
+    // console.log(newCoachExp);
+    const newTotal = document.getElementById("final-total");
+    const newTotalAmount = newCalculatedPlayerExp + newManagerExp + newCoachExp;
+    // console.log(newTotalAmount);
+    newTotal.innerText = newTotalAmount;
 })
